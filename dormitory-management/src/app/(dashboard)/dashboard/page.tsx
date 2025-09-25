@@ -102,7 +102,7 @@ export default function DashboardPage() {
           <CardContent>
             <div className="text-2xl font-bold">94%</div>
             <p className="text-xs text-muted-foreground">
-              This week's average
+              This weeks average
             </p>
           </CardContent>
         </Card>

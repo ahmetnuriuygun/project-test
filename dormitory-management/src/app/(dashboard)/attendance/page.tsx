@@ -112,7 +112,7 @@ export default function AttendancePage() {
               {Math.round(((attendanceStats.present + attendanceStats.late) / attendanceStats.total) * 100)}%
             </div>
             <p className="text-xs text-muted-foreground">
-              Today's rate
+              Todays rate
             </p>
           </CardContent>
         </Card>
@@ -140,7 +140,7 @@ export default function AttendancePage() {
                     <p className="text-sm font-medium">{record.time}</p>
                     <p className="text-xs text-gray-500">Check-in time</p>
                   </div>
-                  <Badge variant={getStatusVariant(record.status) as any}>
+                  <Badge variant={getStatusVariant(record.status)}>
                     {record.status}
                   </Badge>
                 </div>
@@ -175,7 +175,7 @@ export default function AttendancePage() {
 
         <Card>
           <CardHeader>
-            <CardTitle>Today's Schedule</CardTitle>
+            <CardTitle>Todays Schedule</CardTitle>
             <CardDescription>Upcoming attendance checks</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">

@@ -130,7 +130,7 @@ export default function TicketsPage() {
                     </CardDescription>
                   </div>
                 </div>
-                <Badge variant={getStatusVariant(ticket.status) as any}>
+                <Badge variant={getStatusVariant(ticket.status)}>
                   {ticket.status.replace('_', ' ')}
                 </Badge>
               </div>

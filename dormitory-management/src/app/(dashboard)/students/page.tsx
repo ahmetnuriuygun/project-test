@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
 import { apiClient, Student } from '@/lib/api'
-import { Search, Plus, Mail, Phone, MapPin } from 'lucide-react'
+import {Search, Plus, Mail, Phone, MapPin, Users} from 'lucide-react'
 import { formatDate } from '@/lib/utils'
 
 export default function StudentsPage() {
